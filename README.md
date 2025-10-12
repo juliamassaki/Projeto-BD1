@@ -1,4 +1,79 @@
-# Projeto-BD1
+# Projeto-BD1: Sistema de Avaliação de Livros
+
+## Descrição do Sistema e Fluxo de Funcionalidades
+
+O sistema proposto é uma plataforma para avaliação de livros, projetada para permitir que usuários compartilhem suas opiniões e notas sobre diversas obras literárias.
+
+**Fluxo de Funcionalidades:**
+
+1.  **Cadastro e Autenticação de Usuários:**
+    * O usuário se cadastra na plataforma informando nome, e-mail e telefone.
+    * Para acessar o sistema, o usuário realiza o login utilizando seu e-mail.
+
+2.  **Visualização de Livros:**
+    * O usuário pode navegar por uma lista de livros já cadastrados no sistema.
+    * Haverá uma funcionalidade de busca para encontrar livros por título, autor ou gênero.
+
+3.  **Realização de Avaliações:**
+    * Ao selecionar um livro, o usuário pode submeter uma avaliação.
+    * A avaliação é composta por uma nota de 1 a 5 e um comentário em texto livre.
+    * O sistema registrará a data e a hora da avaliação.
+
+4.  **Consulta de Avaliações:**
+    * Na página de um livro, serão exibidas todas as avaliações feitas por outros usuários, incluindo nota, comentário e a data.
+
+## Relatórios Planejados
+
+Para a análise dos dados, o sistema contará com os seguintes relatórios:
+
+**1. Média de Notas por Gênero Literário**
+
+* **Descrição:** Este relatório exibirá a nota média de todos os livros agrupados por gênero. Ele permitirá identificar quais gêneros literários são mais bem avaliados na plataforma.
+* **Visualização Esperada (Gráfico de Barras):**
+
+    ```
+    +-------------------------------------------+
+    |         Média de Notas por Gênero         |
+    +-------------------------------------------+
+    |                                           |
+    |   Romance: ########## (4.5)               |
+    | Ficção C.: ############# (4.8)            |
+    |   Mistério: ######## (4.2)                |
+    |    Fantasia: ########### (4.6)            |
+    |                                           |
+    +-------------------------------------------+
+    ```
+
+**2. Top 5 Livros Mais Bem Avaliados**
+
+* **Descrição:** Uma tabela que listará os 5 livros com as maiores médias de avaliação na plataforma. O relatório incluirá o título do livro, o autor e sua nota média.
+* **Visualização Esperada (Tabela):**
+
+| Posição | Título do Livro | Autor | Nota Média |
+| :--- | :--- | :--- | :--- |
+| 1 | "O Senhor dos Anéis" | J.R.R. Tolkien | 4.9 |
+| 2 | "Orgulho e Preconceito" | Jane Austen | 4.8 |
+| 3 | "1984" | George Orwell | 4.7 |
+| 4 | "Dom Quixote" | Miguel de Cervantes | 4.7 |
+| 5 | "Cem Anos de Solidão" | Gabriel García Márquez| 4.6 |
+
+**3. Número de Avaliações por Mês**
+
+* **Descrição:** Este relatório exibirá um gráfico de barras com a quantidade total de avaliações de livros realizadas a cada mês. Ele é útil para medir o engajamento e a atividade dos usuários na plataforma ao longo do tempo.
+* **Visualização Esperada (Gráfico de Barras):**
+
+    ```
+    +-------------------------------------------+
+    |        Avaliações Realizadas por Mês      |
+    +-------------------------------------------+
+    |                                           |
+    |      Agosto: ########## (10)              |
+    |   Setembro: ################### (19)      |
+    |    Outubro: ############# (13)            |
+    |   Novembro: ###################### (22)   |
+    |                                           |
+    +-------------------------------------------+
+    ```
 
 ## Diagrama ER
 Modelo Conceitual do Sistema de Avaliação de Livros
