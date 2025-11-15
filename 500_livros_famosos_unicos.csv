@@ -1,0 +1,501 @@
+title,author,genre,year
+Pride and Prejudice,Jane Austen,Romance,1813
+To Kill a Mockingbird,Harper Lee,Ficção,1960
+1984,George Orwell,Distopia,1949
+The Great Gatsby,F. Scott Fitzgerald,Ficção,1925
+Moby Dick,Herman Melville,Aventura,1851
+War and Peace,Leo Tolstoy,Ficção histórica,1869
+Crime and Punishment,Fyodor Dostoevsky,Ficção filosófica,1866
+The Catcher in the Rye,J.D. Salinger,Ficção,1951
+The Hobbit,J.R.R. Tolkien,Fantasia,1937
+The Lord of the Rings,J.R.R. Tolkien,Fantasia,1954
+Brave New World,Aldous Huxley,Distopia,1932
+Fahrenheit 451,Ray Bradbury,Distopia,1953
+Anna Karenina,Leo Tolstoy,Drama,1878
+The Odyssey,Homer,Épico,-800
+The Iliad,Homer,Épico,-750
+The Stranger,Albert Camus,Ficção filosófica,1942
+Don Quixote,Miguel de Cervantes,Aventura,1605
+One Hundred Years of Solitude,Gabriel García Márquez,Realismo mágico,1967
+The Brothers Karamazov,Fyodor Dostoevsky,Filosofia,1880
+The Divine Comedy,Dante Alighieri,Poesia épica,1320
+Les Misérables,Victor Hugo,Romance histórico,1862
+The Count of Monte Cristo,Alexandre Dumas,Aventura,1844
+Wuthering Heights,Emily Brontë,Romance gótico,1847
+Jane Eyre,Charlotte Brontë,Romance,1847
+Great Expectations,Charles Dickens,Ficção,1861
+A Tale of Two Cities,Charles Dickens,Ficção histórica,1859
+David Copperfield,Charles Dickens,Ficção,1850
+The Picture of Dorian Gray,Oscar Wilde,Ficção gótica,1890
+Dracula,Bram Stoker,Horror,1897
+Frankenstein,Mary Shelley,Horror,1818
+The Grapes of Wrath,John Steinbeck,Ficção,1939
+East of Eden,John Steinbeck,Ficção,1952
+Of Mice and Men,John Steinbeck,Ficção,1937
+The Old Man and the Sea,Ernest Hemingway,Ficção,1952
+For Whom the Bell Tolls,Ernest Hemingway,Ficção,1940
+The Sun Also Rises,Ernest Hemingway,Ficção,1926
+A Farewell to Arms,Ernest Hemingway,Ficção,1929
+The Sound and the Fury,William Faulkner,Ficção,1929
+As I Lay Dying,William Faulkner,Ficção,1930
+The Metamorphosis,Franz Kafka,Ficção surreal,1915
+The Trial,Franz Kafka,Ficção,1925
+The Castle,Franz Kafka,Ficção,1926
+The Alchemist,Paulo Coelho,Fábula,1988
+Blindness,José Saramago,Ficção,1995
+Baltasar and Blimunda,José Saramago,Romance,1982
+The Gospel According to Jesus Christ,José Saramago,Romance,1991
+The Name of the Rose,Umberto Eco,Mistério,1980
+It,Stephen King,Horror,1986
+The Shining,Stephen King,Horror,1977
+Carrie,Stephen King,Horror,1974
+Misery,Stephen King,Suspense,1987
+Pet Sematary,Stephen King,Horror,1983
+The Stand,Stephen King,Fantasia,1978
+Dune,Frank Herbert,Ficção científica,1965
+Foundation,Isaac Asimov,Ficção científica,1951
+"I, Robot",Isaac Asimov,Ficção científica,1950
+Neuromancer,William Gibson,Cyberpunk,1984
+Snow Crash,Neal Stephenson,Cyberpunk,1992
+Do Androids Dream of Electric Sheep?,Philip K. Dick,Ficção científica,1968
+Ubik,Philip K. Dick,Ficção científica,1969
+The Man in the High Castle,Philip K. Dick,Distopia,1962
+The Left Hand of Darkness,Ursula K. Le Guin,Ficção científica,1969
+A Wizard of Earthsea,Ursula K. Le Guin,Fantasia,1968
+The Dispossessed,Ursula K. Le Guin,Ficção científica,1974
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasia,1997
+Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasia,1998
+Harry Potter and the Prisoner of Azkaban,J.K. Rowling,Fantasia,1999
+Harry Potter and the Goblet of Fire,J.K. Rowling,Fantasia,2000
+Harry Potter and the Order of the Phoenix,J.K. Rowling,Fantasia,2003
+Harry Potter and the Half-Blood Prince,J.K. Rowling,Fantasia,2005
+Harry Potter and the Deathly Hallows,J.K. Rowling,Fantasia,2007
+The Hunger Games,Suzanne Collins,Distopia,2008
+Catching Fire,Suzanne Collins,Distopia,2009
+Mockingjay,Suzanne Collins,Distopia,2010
+The Maze Runner,James Dashner,Distopia,2009
+Divergent,Veronica Roth,Distopia,2011
+Insurgent,Veronica Roth,Distopia,2012
+Allegiant,Veronica Roth,Distopia,2013
+The Fault in Our Stars,John Green,Romance,2012
+Looking for Alaska,John Green,Drama,2005
+Paper Towns,John Green,Ficção,2008
+The Notebook,Nicholas Sparks,Romance,1996
+A Walk to Remember,Nicholas Sparks,Romance,1999
+Message in a Bottle,Nicholas Sparks,Romance,1998
+The Da Vinci Code,Dan Brown,Suspense,2003
+Angels & Demons,Dan Brown,Suspense,2000
+Inferno,Dan Brown,Suspense,2013
+Digital Fortress,Dan Brown,Suspense,1998
+The Girl with the Dragon Tattoo,Stieg Larsson,Suspense,2005
+The Girl Who Played with Fire,Stieg Larsson,Suspense,2006
+The Girl Who Kicked the Hornet's Nest,Stieg Larsson,Suspense,2007
+The Handmaid's Tale,Margaret Atwood,Distopia,1985
+Oryx and Crake,Margaret Atwood,Ficção científica,2003
+The Blind Assassin,Margaret Atwood,Ficção,2000
+Life of Pi,Yann Martel,Aventura,2001
+The Kite Runner,Khaled Hosseini,Drama,2003
+A Thousand Splendid Suns,Khaled Hosseini,Drama,2007
+And the Mountains Echoed,Khaled Hosseini,Drama,2013
+The Book Thief,Markus Zusak,Drama,2005
+The Road,Cormac McCarthy,Pós-apocalíptico,2006
+No Country for Old Men,Cormac McCarthy,Suspense,2005
+Blood Meridian,Cormac McCarthy,Ficção,1985
+Beloved,Toni Morrison,Drama,1987
+Song of Solomon,Toni Morrison,Ficção,1977
+Sula,Toni Morrison,Ficção,1973
+The Color Purple,Alice Walker,Drama,1982
+The Bell Jar,Sylvia Plath,Drama,1963
+Mrs Dalloway,Virginia Woolf,Ficção,1925
+To the Lighthouse,Virginia Woolf,Ficção,1927
+Orlando,Virginia Woolf,Ficção,1928
+Middlemarch,George Eliot,Ficção,1871
+The Secret Garden,Frances Hodgson Burnett,Infantil,1911
+Little Women,Louisa May Alcott,Romance,1868
+The Call of the Wild,Jack London,Aventura,1903
+White Fang,Jack London,Aventura,1906
+Lolita,Vladimir Nabokov,Ficção,1955
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
+Slaughterhouse-Five,Kurt Vonnegut,Ficção,1969
+The Outsiders,S.E. Hinton,Drama,1967
+The Giver,Lois Lowry,Distopia,1993
+Ender's Game,Orson Scott Card,Ficção científica,1985
+The Wind-Up Bird Chronicle,Haruki Murakami,Ficção,1994
+Kafka on the Shore,Haruki Murakami,Ficção surreal,2002
+The Godfather,Mario Puzo,Crime,1969
+The Silence of the Lambs,Thomas Harris,Suspense,1988
+The Exorcist,William Peter Blatty,Horror,1971
+A Clockwork Orange,Anthony Burgess,Distopia,1962
