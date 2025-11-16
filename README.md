@@ -83,7 +83,7 @@ O Diagrama Entidade-Relacionamento (ER) do sistema de gerenciamento de avaliaç�
 O modelo é composto por três Entidades Fortes (Pessoa, Livro, Plataforma) e um Relacionamento Ternário (avalia) que funciona como uma entidade associativa.
 - *Cor roxa (atributo):* Indica uma Chave Primária e Estrangeira.
 
-<img width="745" height="537" alt="image" src="https://github.com/user-attachments/assets/81a52d0d-6700-4a40-9fc8-2c29b1891e61" />
+<img width="1123" height="781" alt="Image" src="https://github.com/user-attachments/assets/56c03125-0943-4cbd-a235-cf57d64aac7b" />
 
 ## Esquema relacional de banco de dados
 - *Sublinhado unico (atributo):* Indica a Chave Primária (PK) da tabela.
@@ -91,4 +91,4 @@ O modelo é composto por três Entidades Fortes (Pessoa, Livro, Plataforma) e um
 - *Sublinhado acima (atributo):* Indica uma Chave Estrangeira na tabela.
 - *Sem sublinhado:* Atributo não-chave.
   
-  <img width="1142" height="519" alt="image" src="https://github.com/user-attachments/assets/c1bea507-ee63-48b2-a855-a6129638cc35" />
+  <img width="1240" height="552" alt="Image" src="https://github.com/user-attachments/assets/bd39dbe0-4c14-4437-8834-118bf4e7b894" />
