@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 • 𝒟𝑒𝓉𝒶𝓁𝒽𝑒𝓈 𝒹ℴ 𝐿𝒾𝓋𝓇ℴ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="underline">Livros</a>
+      <a href="avaliacao.html" class="hover:underline">Avaliação</a>
+      <a href="usuarios.html" class="hover:underline">Usuários</a>
+      <a href="pesquisa.html" class="hover:underline">Pesquisar</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <article id="livroBox" class="bg-white rounded-2xl shadow p-4 mb-4"></article>
+
+    <button
+      id="btnAvaliar"
+      type="button"
+      class="px-3 py-2 rounded-lg text-white"
+    >
+      Fazer avaliação
+    </button>
+    
+    <section class="mt-8">
+      <h3 class="text-xl text-white font-semibold mb-4">Avaliações deste Livro</h3>
+      <div id="feedContainer" class="grid grid-cols-1 gap-4">
+        </div>
+    </section>
+    </main>
+
+  <div id="avaliacaoModal" class="modal hidden">
+    <div class="modal-content">
+      <header class="flex items-center justify-between mb-3">
+        <h3 class="text-lg">Nova avaliação</h3>
+        
+        <button id="fecharModal" class="px-3 py-2 rounded-lg text-white bg-red-600 border-red-600 hover:bg-red-700 hover:border-red-700">
+          Fechar
+        </button>
+
+      </header>
+
+      <form id="formAvaliacao" class="grid gap-3">
+
+        <div class="mb-2">
+          <span class="text-sm font-medium text-gray-600">Avaliando o livro:</span>
+          <h4 id="modalNomeLivro" class="text-lg font-semibold text-gray-800">Carregando...</h4>
+        </div>
+
+        <label class="grid gap-1">
+          <span>Nota (1 a 5)</span>
+          <input name="nota" type="number" min="1" max="5" required class="border rounded-lg px-3 py-2" />
+        </label>
+
+        <label class="grid gap-1">
+          <span>Comentário</span>
+          <textarea name="comentario" rows="4" class="border rounded-lg px-3 py-2"></textarea>
+        </label>
+
+        <button
+          type="submit"
+          class="px-3 py-2 rounded-lg text-white"
+        >
+          Enviar avaliação
+        </button>
+
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="livro.js"></script>
+</body>
+</html>

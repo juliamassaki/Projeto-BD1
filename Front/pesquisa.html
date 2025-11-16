@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pesquisar Usuários</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="hover:underline">Livros</a>
+      <a href="avaliacao.html" class="hover:underline">Avaliação</a>
+      <a href="usuarios.html" class="hover:underline">Usuários</a>
+      <a href="pesquisa.html" class="underline">Pesquisar</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <section class="bg-white rounded-2xl shadow p-4">
+      <h2 class="text-lg mb-3">Pᴇsǫᴜɪsᴀʀ Usᴜᴀ́ʀɪᴏ</h2>
+      <div class="flex items-center gap-2 mb-4">
+        <input id="buscaUsuario" class="border rounded-lg px-3 py-2 w-full" placeholder="Buscar por nome ou e-mail" />
+        <button id="btnBuscar" type="button" class="px-3 py-2 rounded-lg text-white">
+          Buscar
+        </button>
+      </div>
+      
+      <div class="overflow-auto">
+        <table class="w-full text-left">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="p-2">Nome</th>
+              <th class="p-2">E-mail</th>
+              <th class="p-2">Perfil</th>
+            </tr>
+          </thead>
+          <tbody id="usuariosTableBody">
+            </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="pesquisa.js"></script>
+</body>
+</html>

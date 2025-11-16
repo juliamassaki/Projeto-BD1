@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfil do Usuário</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="hover:underline">Livros</a>
+      <a href="avaliacao.html" class="hover:underline">Avaliação</a>
+      <a href="usuarios.html" class="hover:underline">Usuários</a>
+      <a href="pesquisa.html" class="hover:underline">Pesquisar</a>
+      <a href="pesquisa.html" class="underline">Perfil</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <article id="perfilBox" class="bg-white rounded-2xl shadow p-4 mb-4">
+      </article>
+
+    <section class="mt-8">
+      <h3 class="text-xl text-white font-semibold mb-4">Avaliações de <span id="nomeUsuarioFeed"></span></h3>
+      <div id="feedContainer" class="grid grid-cols-1 gap-4">
+        </div>
+    </section>
+  </main>
+
+  <script type="module" src="perfil.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 • 𝒜𝓋𝒶𝓁𝒾𝒶𝒸̧𝒶̃ℴ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="hover:underline">Livros</a>
+      <a href="avaliacao.html" class="underline">Avaliação</a>
+      <a href="usuarios.html" class="hover:underline">Usuários</a>
+      <a href="pesquisa.html" class="hover:underline">Pesquisar</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <form id="formAvaliacaoRapida" class="grid gap-4 bg-white rounded-2xl shadow p-4">
+      <label class="grid gap-1">
+        <span>Lɪᴠʀᴏ*</span>
+        <input id="buscaLivroInput" list="listaLivros" placeholder="Digite parte do título ou autor"
+               class="border rounded-lg px-3 py-2" autocomplete="off" required />
+        <datalist id="listaLivros"></datalist>
+        <input type="hidden" name="livro_id" id="livroIdSelecionado" required />
+        <small class="text-gray-600">Dica: digite 3+ letras e selecione uma sugestão.</small>
+      </label>
+
+      <label class="grid gap-1">
+        <span>Nᴏᴛᴀ*</span>
+        <input name="nota" type="number" min="1" max="5"
+        placeholder="De 1 a 5" class="border rounded-lg px-3 py-2" required />
+      </label>
+
+      <label class="grid gap-1">
+        <span>Cᴏᴍᴇɴᴛᴀ́ʀɪᴏ</span>
+        <textarea name="comentario" rows="4" class="border  
+        rounded-lg px-3 py-2"> </textarea>
+      </label>
+
+      <button
+        type="submit"
+        class="px-3 py-2 rounded-lg text-white"
+      >Enviar</button>
+
+    </form>
+  </main>
+
+  <script type="module" src="avaliacao.js"></script>
+</body>
+</html>

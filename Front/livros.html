@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Livros</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="underline">Livros</a>
+      <a href="avaliacao.html" class="hover:underline">Avaliação</a>
+      <a href="usuarios.html" class="hover:underline">Usuários</a>
+      <a href="pesquisa.html" class="hover:underline">Pesquisar</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6 grid gap-6 md:grid-cols-3">
+    <section class="md:col-span-2 bg-white rounded-2xl shadow p-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="text-lg">Cᴀᴛᴀ́ʟᴏɢᴏ</h2>
+        <div class="flex items-center gap-2">
+          <input id="buscaLivro" class="border rounded-lg px-3 py-2 w-56" placeholder="Buscar por título ou autor" />
+          <button
+            type="button" 
+            id="btnBuscar"
+            class="px-3 py-2 rounded-lg text-white"
+          >Buscar</button>
+        </div>
+      </div>
+      
+      <div class="overflow-auto">
+        <table class="w-full text-left">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="p-2">Título</th>
+              <th class="p-2">Autor</th>
+              <th class="p-2">Gênero</th>
+              <th class="p-2">Avaliações</th>
+            </tr>
+          </thead>
+          <tbody id="livrosTableBody"></tbody>
+        </table>
+      </div>
+
+      <div id="paginationContainer" class="flex justify-center items-center gap-2 mt-4">
+      </div>
+
+    </section>
+
+    <aside class="bg-white rounded-2xl shadow p-4 self-start">
+      <h3 class="text-lg mb-3">Nᴏᴠᴏ ʟɪᴠʀᴏ</h3>
+      <form id="formNovoLivro" class="grid gap-3">
+        <input class="border rounded-lg px-3 py-2" name="titulo" placeholder="Título" required />
+        <input class="border rounded-lg px-3 py-2" name="autor" placeholder="Autor" required />
+        <input class="border rounded-lg px-3 py-2" name="genero" placeholder="Gênero" required />
+        <input class="border rounded-lg px-3 py-2" name="ano" placeholder="Ano (opcional)" />
+        <button
+          type="submit"
+          class="px-3 py-2 rounded-lg text-white"
+        >Adicionar</button>
+      </form>
+    </aside>
+  </main>
+
+  <script type="module" src="livros.js"></script>
+</body>
+</html>

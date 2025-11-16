@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Usuários</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body
+  class="min-h-screen text-gray-900"
+  style="
+    --c1:#6D28D9; --c2:#0EA5E9;
+    background: linear-gradient(135deg, var(--c1), var(--c2)) fixed no-repeat;
+    background-size: cover;
+  "
+>
+  <header class="bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-xl">•𝓢𝓲𝓼𝓽𝓮𝓶𝓪 𝓭𝓮 𝓐𝓿𝓪𝓵𝓲𝓪𝓬̧𝓪̃𝓸 𝓭𝓮 𝓛𝓲𝓿𝓇𝓸𝓼 📚•</h1>
+    <nav class="flex gap-4">
+      <a href="index.html" class="hover:underline">Relatórios</a>
+      <a href="livros.html" class="hover:underline">Livros</a>
+      <a href="avaliacao.html" class="hover:underline">Avaliação</a>
+      <a href="usuarios.html" class="underline">Usuários</a>
+      <a href="pesquisa.html" class="hover:underline">Pesquisar</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6"> <div class="flex flex-col md:flex-row gap-6">
+      
+      <section class="bg-white rounded-2xl shadow p-4 flex-1">
+        <h2 class="text-lg mb-3">Lᴏɢɪɴ</h2>
+        
+        <form id="formLogin" class="grid gap-3">
+          <input class="border rounded-lg px-3 py-2" name="email" type="email" placeholder="E-mail" required />
+          <input class="border rounded-lg px-3 py-2" name="senha" type="password" placeholder="Senha" required />
+          
+          <button
+            type="submit"
+            class="px-3 py-2 rounded-lg text-white"
+          >Entrar</button>
+
+        </form>
+        
+        <div id="usuarioAtual" class="mt-4 text-sm"></div>
+        <button id="btnLogout" class="hidden mt-2 px-3 py-2 rounded-lg text-white bg-red-600 border-red-600 hover:bg-red-700 hover:border-red-700">Sair</button>
+      </section>
+      
+      <section class="bg-white rounded-2xl shadow p-4 flex-1">
+        <h2 class="text-lg mb-3">Cᴀᴅᴀsᴛʀᴇ-sᴇ</h2>
+        
+        <form id="formRegister" class="grid gap-3">
+          <input class="border rounded-lg px-3 py-2" name="nome" placeholder="Nome Completo" required />
+          <input class="border rounded-lg px-3 py-2" name="email" type="email" placeholder="E-mail" required />
+          <input class="border rounded-lg px-3 py-2" name="telefone" placeholder="Telefone (opcional)" />
+          <input class="border rounded-lg px-3 py-2" name="senha" type="password" placeholder="Crie uma Senha" required />
+          
+          <button
+            type="submit"
+            class="px-3 py-2 rounded-lg text-white"
+          >Cadastrar</button>
+
+        </form>
+      </section>
+
+    </div> <section class="mt-6 bg-white rounded-2xl shadow p-4">
+      <h2 class="text-lg mb-3">Sᴜᴀs Aᴠᴀʟɪᴀᴄ̧ᴏ̃ᴇs</h2>
+      <div id="feedUsuarioContainer" class="grid grid-cols-1 gap-4">
+        </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="usuarios.js"></script>
+</body>
+</html>
