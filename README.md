@@ -92,3 +92,49 @@ O modelo é composto por três Entidades Fortes (Pessoa, Livro, Plataforma) e um
 - *Sem sublinhado:* Atributo não-chave.
   
   <img width="1240" height="552" alt="Image" src="https://github.com/user-attachments/assets/bd39dbe0-4c14-4437-8834-118bf4e7b894" />
+
+## Como Executar o Projeto
+
+1.  **Clone o Repositório**
+    ```bash
+    git clone [https://github.com/juliamassaki/Projeto-BD1.git](https://github.com/juliamassaki/Projeto-BD1.git)
+    cd Projeto-BD1
+    ```
+
+2.  **Configuração do Banco de Dados**
+    * Certifique-se de que o PostgreSQL está rodando
+    * Crie um novo banco de dados chamado `projeto_bd1`
+    * Restaure o backup completo para carregar o esquema e os dados:
+        ```bash
+        psql -U postgres -d projeto_bd1 < meu_backup.sql
+        ```
+
+3.  **Configuração do Backend**
+    * Crie e ative um ambiente virtual:
+        ```bash
+        python -m venv venv
+        .\venv\Scripts\activate
+        ```
+    * Instale as dependências:
+        ```bash
+        pip install -r requirements.txt
+        ```
+    * **IMPORTANTE:** Edite o arquivo `backend/database.py` e altere a variável `DB_PASSWORD` para a sua senha do PostgreSQL.
+    * Rode o servidor do backend:
+        ```bash
+        uvicorn backend.main:app --reload
+        ```
+
+4.  **Execução do Frontend**
+    * Abra um **segundo** terminal
+    * Navegue até a pasta `Front/`:
+        ```bash
+        cd Front
+        ```
+    * Inicie o servidor web do Python (usando a porta 8082 ou outra de sua preferência):
+        ```bash
+        python -m http.server 8082
+        ```
+
+5.  **Acesse o Sistema**
+    * Abra seu navegador e acesse: `http://localhost:8082`
