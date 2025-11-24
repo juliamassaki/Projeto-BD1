@@ -29,4 +29,36 @@ def registrar_avaliacao(avaliacao: AvaliacaoCreate):
     
     if "error" in resultado.get("status", "error"):
          raise HTTPException(status_code=500, detail=f"Erro ao registrar: {resultado['status']}")
+
     return {"status": "success", "message": "Avaliação registrada."}
+
+@router.put("/{livro_id}/{pessoa_id}")
+def atualizar_avaliacao(livro_id: int, pessoa_id: int, avaliacao: AvaliacaoCreate):
+    sql = """
+        UPDATE public."Avaliacao"
+        SET nota = %s,
+            comentario = %s,
+            dataavaliacao = NOW()
+        WHERE "idLivro" = %s AND "idPessoa" = %s AND "idPlat" = 1
+    """
+    params = (avaliacao.nota, avaliacao.comentario, livro_id, pessoa_id)
+    
+    resultado = db.execute_command(sql, params)
+    
+    if "error" in resultado.get("status", "error"):
+         raise HTTPException(status_code=500, detail=f"Erro ao atualizar: {resultado['status']}")
+    return {"status": "success", "message": "Avaliação atualizada."}
+
+@router.delete("/{livro_id}/{pessoa_id}")
+def deletar_avaliacao(livro_id: int, pessoa_id: int):
+    sql = """
+        DELETE FROM public."Avaliacao"
+        WHERE "idLivro" = %s AND "idPessoa" = %s AND "idPlat" = 1
+    """
+    params = (livro_id, pessoa_id)
+    
+    resultado = db.execute_command(sql, params)
+    
+    if "error" in resultado.get("status", "error"):
+         raise HTTPException(status_code=500, detail=f"Erro ao deletar: {resultado['status']}")
+    return {"status": "success", "message": "Avaliação removida."}
