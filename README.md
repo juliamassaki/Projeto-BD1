@@ -106,7 +106,7 @@ O modelo é composto por três Entidades Fortes (Pessoa, Livro, Plataforma) e um
     * Crie um novo banco de dados chamado `projeto_bd1`
     * Restaure o backup completo para carregar o esquema e os dados:
         ```bash
-        psql -U postgres -d projeto_bd1 < meu_backup.sql
+        psql -U postgres -d projeto_bd1 < banco.sql
         ```
 
 3.  **Configuração do Backend**
