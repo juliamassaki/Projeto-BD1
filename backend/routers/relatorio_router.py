@@ -7,14 +7,14 @@ router = APIRouter(prefix="/relatorios", tags=["Relatórios"])
 def get_media_por_genero():
     sql = """
         SELECT
-            TRIM(L.genero) AS genero,
+            L.genero,
             COALESCE(AVG(A.nota), 0) as media
         FROM 
             public."Livro" AS L
         LEFT JOIN 
             public."Avaliacao" AS A ON A."idLivro" = L."idLivro"
         GROUP BY 
-            TRIM(L.genero)
+            L.genero
         ORDER BY 
             media DESC;
     """
@@ -24,14 +24,14 @@ def get_media_por_genero():
 def get_top_5_livros():
     sql = """
         SELECT 
-            TRIM(L.titulo) AS titulo,
+            L.titulo,
             AVG(A.nota) as media
         FROM 
             public."Avaliacao" AS A
         JOIN 
             public."Livro" AS L ON A."idLivro" = L."idLivro"
         GROUP BY 
-            L."idLivro", TRIM(L.titulo)
+            L."idLivro", L.titulo
         ORDER BY 
             media DESC
         LIMIT 5;
@@ -51,4 +51,5 @@ def get_avaliacoes_por_mes():
         ORDER BY 
             mes;
     """
+
     return db.execute_query(sql)
