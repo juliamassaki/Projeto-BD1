@@ -49,7 +49,7 @@ def get_avaliacoes_do_livro(livro_id: int):
     """
     sql = """
         SELECT 
-            TRIM(P.nome) AS nome_pessoa,
+            P.nome AS nome_pessoa,
             A.nota,
             A.comentario,
             TO_CHAR(A.dataavaliacao, 'DD/MM/YYYY') AS data_formatada
@@ -60,8 +60,9 @@ def get_avaliacoes_do_livro(livro_id: int):
         WHERE 
             A."idLivro" = %s
         ORDER BY 
-            A.dataavaliacao DESC; -- Mais novas primeiro
+            A.dataavaliacao DESC;
     """
     
     avaliacoes = db.execute_query(sql, (livro_id,))
+
     return avaliacoes
