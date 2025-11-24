@@ -13,7 +13,7 @@ def hash_senha(senha: str) -> str:
 @router.post("/register", status_code=status.HTTP_201_CREATED)
 def register_pessoa(pessoa: PessoaRegister):
     
-    sql_check = 'SELECT "idPessoa" FROM public."Pessoa" WHERE TRIM(email) = %s'
+    sql_check = 'SELECT "idPessoa" FROM public."Pessoa" WHERE email = %s'
     existente = db.execute_query(sql_check, (pessoa.email,)) 
     
     if existente:
@@ -28,9 +28,9 @@ def register_pessoa(pessoa: PessoaRegister):
         RETURNING "idPessoa" AS id, nome, email, telefone;
     """
     params = (
-        pessoa.nome.ljust(100), 
-        pessoa.email.ljust(50), 
-        (pessoa.telefone or '').ljust(120), 
+        pessoa.nome,
+        pessoa.email,
+        pessoa.telefone,
         hashed_password
     )
     
@@ -48,7 +48,7 @@ def login_pessoa(form_data: PessoaLogin):
     sql_find = """
         SELECT "idPessoa" AS id, nome, email, telefone, senha 
         FROM public."Pessoa" 
-        WHERE TRIM(email) = %s
+        WHERE email = %s
     """
     usuarios = db.execute_query(sql_find, (form_data.email,))
     
@@ -69,7 +69,7 @@ def login_pessoa(form_data: PessoaLogin):
 
 @router.get("/") 
 def buscar_pessoas(q: Optional[str] = Query(None)):
-    sql = 'SELECT "idPessoa" AS id, TRIM(nome) AS nome, email FROM public."Pessoa"'
+    sql = 'SELECT "idPessoa" AS id, nome, email FROM public."Pessoa"'
     params = None
     if q:
         sql += ' WHERE nome ILIKE %s OR email ILIKE %s'
@@ -80,7 +80,7 @@ def buscar_pessoas(q: Optional[str] = Query(None)):
 
 @router.get("/{pessoa_id}") 
 def get_pessoa_por_id(pessoa_id: int):
-    sql = 'SELECT "idPessoa" AS id, TRIM(nome) AS nome, email FROM public."Pessoa" WHERE "idPessoa" = %s'
+    sql = 'SELECT "idPessoa" AS id, nome, email FROM public."Pessoa" WHERE "idPessoa" = %s'
     pessoas = db.execute_query(sql, (pessoa_id,))
     if not pessoas:
         raise HTTPException(status_code=404, detail="Pessoa não encontrada")
@@ -90,8 +90,8 @@ def get_pessoa_por_id(pessoa_id: int):
 def get_avaliacoes_da_pessoa(pessoa_id: int):
     sql = """
         SELECT 
-            TRIM(L.titulo) AS livro_titulo, A.nota,
-            COALESCE(TRIM(A.comentario), NULL) AS comentario,
+            L.titulo AS livro_titulo, A.nota,
+            A.comentario,
             TO_CHAR(A.dataavaliacao, 'DD/MM/YYYY') AS data_formatada
         FROM public."Avaliacao" AS A
         JOIN public."Livro" AS L ON A."idLivro" = L."idLivro"
@@ -99,4 +99,5 @@ def get_avaliacoes_da_pessoa(pessoa_id: int):
         ORDER BY A.dataavaliacao DESC;
     """
     avaliacoes = db.execute_query(sql, (pessoa_id,))
+
     return avaliacoes
