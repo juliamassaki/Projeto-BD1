@@ -48,10 +48,8 @@ try:
                 ano = int(ano_str) if ano_str and int(ano_str) > 0 else None
             except ValueError:
                 ano = None 
-            titulo_pad = (titulo[:150]).ljust(150)
-            autor_pad = (autor[:100]).ljust(100)
-            genero_pad = (genero.strip()[:50]).ljust(50) 
-            livros_para_inserir.append((titulo_pad, autor_pad, genero_pad, ano))
+                
+            livros_para_inserir.append((titulo, autor, genero, ano))
 except FileNotFoundError:
     print(f"\n--- ERRO! Arquivo '{NOME_ARQUIVO_LIVROS}' não encontrado! ---")
     exit()
@@ -95,11 +93,7 @@ for i in range(QTD_USUARIOS):
         print(f"  Senha: {senha_plana}  <-- (Anote esta senha para testar o login!)")
         print("-----------------------------------")
 
-    pessoas_para_inserir.append((
-        nome.ljust(100), 
-        email.ljust(50), 
-        senha_hash
-    ))
+    pessoas_para_inserir.append((nome, email, senha_hash))
 
 print("Dados falsos gerados. Conectando ao banco...")
 
@@ -172,4 +166,5 @@ finally:
     if 'conn' in locals() and conn:
         cursor.close()
         conn.close()
+
         print("Conexão com o banco fechada.")
