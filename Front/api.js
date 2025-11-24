@@ -23,3 +23,19 @@ export async function postJSON(path, data){
     body: JSON.stringify(data)
   }));
 }
+
+export async function putJSON(path, data){
+  return handle(await fetch(API_BASE + path, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'include',
+    body: JSON.stringify(data)
+  }));
+}
+
+export async function deleteJSON(path){
+  return handle(await fetch(API_BASE + path, {
+    method: 'DELETE',
+    credentials: 'include'
+  }));
+}
