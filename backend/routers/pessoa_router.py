@@ -90,6 +90,7 @@ def get_pessoa_por_id(pessoa_id: int):
 def get_avaliacoes_da_pessoa(pessoa_id: int):
     sql = """
         SELECT 
+            L."idLivro",
             L.titulo AS livro_titulo, A.nota,
             A.comentario,
             TO_CHAR(A.dataavaliacao, 'DD/MM/YYYY') AS data_formatada
@@ -101,3 +102,4 @@ def get_avaliacoes_da_pessoa(pessoa_id: int):
     avaliacoes = db.execute_query(sql, (pessoa_id,))
 
     return avaliacoes
+
