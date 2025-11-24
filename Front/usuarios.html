@@ -73,6 +73,35 @@
 
   </main>
 
+  <div id="modalEdicao" class="modal hidden">
+    <div class="modal-content relative">
+      <button id="fecharModal" class="absolute top-2 right-3 text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+      
+      <form id="formEdicao" class="grid gap-3">
+        <h2 class="text-xl font-semibold mb-2">Editar Avaliação</h2>
+        
+        <div class="mb-2">
+          <span class="text-sm text-gray-600">Livro:</span>
+          <h4 id="nomeLivroEdicao" class="text-lg font-semibold text-gray-800"></h4>
+        </div>
+
+        <label class="grid gap-1">
+          <span>Nota (1 a 5)</span>
+          <input name="nota" type="number" min="1" max="5" required class="border rounded-lg px-3 py-2" />
+        </label>
+
+        <label class="grid gap-1">
+          <span>Comentário</span>
+          <textarea name="comentario" rows="4" class="border rounded-lg px-3 py-2"></textarea>
+        </label>
+
+        <button type="submit" class="px-3 py-2 rounded-lg text-white bg-blue-500 hover:bg-blue-600">
+          Salvar Alterações
+        </button>
+      </form>
+    </div>
+  </div>
+
   <script type="module" src="usuarios.js"></script>
 </body>
 </html>
